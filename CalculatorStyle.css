@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(56, 56, 59);
+    display: flex;
+    justify-content: center;
+}
+
+
+.Calculator {
+    background-color: white;
+    border-radius: 10px;
+    width: 252px;
+    padding: 5px;
+    box-shadow: white 0px 0px 1px 1px;
+}
+
+#output {
+    /* border: solid red 1px; */
+    border-radius: 10px;
+    height: 60px;
+    margin: 5px;
+    margin-bottom: 10px;
+    box-shadow: inset rgba(0, 0, 0, 0.26) 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    font-size: 20px;
+}
+
+button:nth-child(15) {
+    width: 114px;
+    background-color: rgb(255, 125, 103);
+    box-shadow: rgba(255, 126, 103, 0.897) 0px 0px 5px;
+}
+button {
+    transition: all 0.1s;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.384) 0px 0px 5px;
+}
+.num {
+    background-color: rgb(167, 167, 167);
+}
+.sym {
+    background-color: rgb(196, 196, 196);
+}
+
+
+button:active {
+    box-shadow: rgba(0, 0, 0, 0.384) 0px 0px 0px;
+
+}
